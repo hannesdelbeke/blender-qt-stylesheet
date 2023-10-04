@@ -1,11 +1,12 @@
 import blender_stylesheet
-from PySide2.QtWidgets import QApplication
+from qtpy.QtWidgets import QApplication
 import sys
 import demo_widget
 
 
 def main():
     app = QApplication(sys.argv + ['-platform', 'windows:darkmode=2'])
+    app.setStyle("fusion")
     blender_stylesheet.setup(app)
     widget = demo_widget.TestWidget()
     widget.show()

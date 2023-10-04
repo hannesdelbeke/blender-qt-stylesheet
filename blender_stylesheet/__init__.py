@@ -1,5 +1,7 @@
-from PySide2.QtWidgets import QApplication
-from PySide2.QtGui import QIcon, QImage, QPixmap
+
+from qtpy.QtWidgets import QApplication
+from qtpy.QtGui import QIcon, QImage, QPixmap
+
 from pathlib import Path
 import logging
 
@@ -17,12 +19,10 @@ def apply_blender_stylesheet(qapp):
 
 def get_blender_icon():
     icon = QIcon()
-
     if ICON_FILEPATH.exists():
         image = QImage(str(ICON_FILEPATH))
         if not image.isNull():
             icon = QIcon(QPixmap().fromImage(image))
-
     return icon
 
 

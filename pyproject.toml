@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+#build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+packages = ["blender_stylesheet"]
+
+
+[project]
+name = "blender-qt-stylesheet"
+authors = [
+    {name = "https://tech-artists.org/"},
+]
+description = "style qt like Blender"
+readme = "README.md"
+requires-python = ">=3.4"
+keywords = ["blender", "pyside", "pyside2", "pyside6", "qt", "dark", "darkstyle", "night", "darkmode"]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.7"',
+]
+#dynamic = ["version"]
+version = "0.0.1"
+
+#[project.optional-dependencies]
+#yaml = ["pyyaml"]
+
+#[project.scripts]
+#my-script = "my_package.module:function"
+
+[project.urls]
+Homepage = "https://github.com/hannesdelbeke/blender-qt-stylesheet"

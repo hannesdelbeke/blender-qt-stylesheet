@@ -1,5 +1,5 @@
 import sys
-from PySide2.QtWidgets import QHBoxLayout, QApplication, QMainWindow, QVBoxLayout, QWidget, QScrollArea, QPushButton, QLabel, QLineEdit, QTextEdit, QCheckBox, QRadioButton, QComboBox, QListWidget, QSlider, QSpinBox, QProgressBar, QDial, QScrollBar, QTableWidget, QTableWidgetItem
+from qtpy.QtWidgets import QHBoxLayout, QApplication, QMainWindow, QVBoxLayout, QWidget, QScrollArea, QPushButton, QLabel, QLineEdit, QTextEdit, QCheckBox, QRadioButton, QComboBox, QListWidget, QSlider, QSpinBox, QProgressBar, QDial, QScrollBar, QTableWidget, QTableWidgetItem
 
 
 class TestWidget(QMainWindow):
