@@ -22,7 +22,8 @@ see `example/example.py`
 - apply Blender Icon to QApplication
 
 #### Dark title bar in PySide2
-Optional: Make your title bar dark when creating your QApplication
+Optional in PySide2: Make your title bar dark when creating your QApplication  
+Happens automatically in PySide6
 ```python
 app = QApplication(sys.argv + ['-platform', 'windows:darkmode=2'])
 ``` 
