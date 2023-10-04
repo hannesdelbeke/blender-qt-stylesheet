@@ -14,6 +14,15 @@ blender_stylesheet.setup()
 ```
 see `example/example.py`
 
+### Features
+- apply dark style to QApplication
+- apply Blender Icon to QApplication
+
+#### Dark title bar
+Optional: Make your title bar dark when creating your QApplication
+```python
+app = QApplication(sys.argv + ['-platform', 'windows:darkmode=2'])
+``` 
 
 ---
 Ported the original stylesheet from the [BQt](https://github.com/techartorg/bqt) project, to allow stylesheet use outside Blender.
