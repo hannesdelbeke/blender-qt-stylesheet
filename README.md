@@ -1,4 +1,7 @@
 # Blender Qt stylesheet
+[![PyPI version](https://img.shields.io/pypi/v/blender-qt-stylesheet)](https://pypi.org/project/blender-qt-stylesheet/)
+[![latest tag](https://img.shields.io/github/v/tag/hannesdelbeke/blender-qt-stylesheet?label=Github)](https://github.com/hannesdelbeke/blender-qt-stylesheet)
+
 
 A Blender Qt stylesheet for PySide2.  
 
