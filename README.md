@@ -2,10 +2,13 @@
 
 A Blender Qt stylesheet for PySide2.  
 
-| Dark style |  Dark style + dark title bar |  Default qt style  |
+The top 3 images are this style in PySide6 & PySide2
+| Blender PySide6 | Blender PySide2 |  Blender PySide2 + dark title bar |  
 | -- | -- | -- | 
-| ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/56a571ba-e2de-4dfb-acb2-a835cff4d91b) | ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/a9a5ecb4-7096-4380-aae0-b97de3768989) | ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/046fd91f-6061-4892-9cff-072f1ea32bf4) |
- | | notice bug with dial and scrollbar | |
+| ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/21f5bec9-07c3-49e4-97aa-a2dd14f967f0) | ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/56a571ba-e2de-4dfb-acb2-a835cff4d91b) | ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/a9a5ecb4-7096-4380-aae0-b97de3768989) | -- | 
+ | | notice bug with dial and scrollbar | | 
+ | Default qt style | PySide6 fusion style | | 
+ | ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/046fd91f-6061-4892-9cff-072f1ea32bf4)  | ![image](https://github.com/hannesdelbeke/blender-qt-stylesheet/assets/3758308/36b96e02-28f5-4bcb-a624-4d3073f0ab56) |  | 
 
 ### Instructions
 ```python
@@ -18,7 +21,7 @@ see `example/example.py`
 - apply dark style to QApplication
 - apply Blender Icon to QApplication
 
-#### Dark title bar
+#### Dark title bar in PySide2
 Optional: Make your title bar dark when creating your QApplication
 ```python
 app = QApplication(sys.argv + ['-platform', 'windows:darkmode=2'])
