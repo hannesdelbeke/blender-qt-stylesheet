@@ -1,4 +1,4 @@
-
+from qtpy.QtCore import QDir
 from qtpy.QtWidgets import QApplication
 from qtpy.QtGui import QIcon, QImage, QPixmap
 
@@ -11,6 +11,10 @@ ICON_FILEPATH = Path(__file__).parent / "images" / "blender_icon_16.png"
 
 
 def apply_blender_stylesheet(qapp):
+    # add image directory to Qt search path, else style icons (e.g. checkbox) don't show sometimes
+    image_directory = str(Path(__file__).parent / "images")
+    QDir.addSearchPath('images', image_directory)  # todo this is generic, might clash with other qt scripts
+    
     if STYLESHEET_PATH.exists():
         qapp.setStyleSheet(STYLESHEET_PATH.read_text())
     else:
