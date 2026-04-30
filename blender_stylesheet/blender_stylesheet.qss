@@ -280,7 +280,7 @@ QSpinBox::down-arrow:hover {
     image: url(images:QSpinBox_down_arrow.png);
 }
 QSpinBox::hover {
-    background: #808080;
+    background: #656565;
 }
 QSpinBox::up-button {
     border-width: 0px;
