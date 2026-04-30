@@ -258,12 +258,12 @@ QRadioButton::indicator:unchecked:hover {
 }
 
 
-QSpinBox {
+QAbstractSpinBox {
     background: #595959;
     border: 1px solid #404040;
     text-align: center;
 }
-QSpinBox::down-button {
+QAbstractSpinBox::down-button {
     border-width: 0px;
     padding-top: 3px;
     subcontrol-origin: control;
@@ -272,17 +272,17 @@ QSpinBox::down-button {
     height: 20px;
 }
 
-QSpinBox::down-button:hover {
+QAbstractSpinBox::down-button:hover {
     background:#6b6b6b
 }
-QSpinBox::down-arrow:hover {
+QAbstractSpinBox::down-arrow:hover {
     height: 20px;
     image: url(images:QSpinBox_down_arrow.png);
 }
-QSpinBox::hover {
+QAbstractSpinBox::hover {
     background: #808080;
 }
-QSpinBox::up-button {
+QAbstractSpinBox::up-button {
     border-width: 0px;
     padding-top: 3px;
     subcontrol-origin: control;
@@ -290,10 +290,10 @@ QSpinBox::up-button {
     width: 13px;
     height: 20px;
 }
-QSpinBox::up-button:hover {
+QAbstractSpinBox::up-button:hover {
     background:#6b6b6b
 }
-QSpinBox::up-arrow:hover {
+QAbstractSpinBox::up-arrow:hover {
     height: 20px;
     image: url(images:QSpinBox_up_arrow.png);
 }
