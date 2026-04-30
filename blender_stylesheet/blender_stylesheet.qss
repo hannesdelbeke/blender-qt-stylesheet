@@ -267,9 +267,10 @@ QAbstractSpinBox::down-button {
     border-width: 0px;
     padding-top: 3px;
     subcontrol-origin: control;
-    subcontrol-position: top left;
+    subcontrol-position: center left;
     width: 13px;
     height: 20px;
+    image: url(images:QSpinBox_down_arrow.png);
 }
 
 QAbstractSpinBox::down-button:hover {
@@ -277,7 +278,6 @@ QAbstractSpinBox::down-button:hover {
 }
 QAbstractSpinBox::down-arrow:hover {
     height: 20px;
-    image: url(images:QSpinBox_down_arrow.png);
 }
 QAbstractSpinBox::hover {
     background: #808080;
@@ -286,16 +286,16 @@ QAbstractSpinBox::up-button {
     border-width: 0px;
     padding-top: 3px;
     subcontrol-origin: control;
-    subcontrol-position: top right;
+    subcontrol-position: center right;
     width: 13px;
     height: 20px;
+    image: url(images:QSpinBox_up_arrow.png);
 }
 QAbstractSpinBox::up-button:hover {
     background:#6b6b6b
 }
 QAbstractSpinBox::up-arrow:hover {
     height: 20px;
-    image: url(images:QSpinBox_up_arrow.png);
 }
 
 
