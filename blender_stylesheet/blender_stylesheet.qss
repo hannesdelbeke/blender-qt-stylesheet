@@ -280,7 +280,7 @@ QAbstractSpinBox::down-arrow:hover {
     height: 20px;
 }
 QAbstractSpinBox::hover {
-    background: #808080;
+    background: #656565;
 }
 QAbstractSpinBox::up-button {
     border-width: 0px;
